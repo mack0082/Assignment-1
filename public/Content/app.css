@@ -1,0 +1,148 @@
+/* custom style sheet */
+
+body{
+    background-image: url("http://www.mehtaartgallery.org/wp-content/uploads/2014/03/Creative-Photography-112.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+#p1{
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+        width: 500px;
+    padding: 10px;
+    border: 10px solid #ff8000;
+     border-width: 2px 10px 4px 20px;
+     
+    margin: 10px;
+    
+}
+#me{
+    float: right;
+    border-radius: 25px;
+}
+
+#welcome,#H{
+      color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+        width: 500px;
+    padding: 10px;
+     
+    margin: 10px;
+    
+    
+ }
+ #skills{
+     color: #fff;  
+      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+    
+ }
+
+/* Contact Us*/
+
+.contact-form .input-field {
+  margin-bottom: 30px;
+}
+
+.contact-form .form-control {
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  border-radius: 0;
+  height: 58px;
+  box-shadow: none;
+}
+
+.contact-form .message .form-control {
+  height: 198px;
+}
+
+.contact-form .form-control::-moz-placeholder {
+  color: #1f2021;
+}
+
+.contact-form #msg-submit {
+  font-size: 13px;
+  padding: 17px 50px;
+}
+
+.contact-details {
+  margin-bottom: 90px;
+}
+
+.contact-details > span {
+  color: #ff8000;
+  display: block;
+  margin-bottom: 35px;
+}
+
+
+/* Footer */
+#footer {
+    background-color: #121116;
+     padding: 40px 0 20px;
+     height: 180px;
+     margin-top: 2%;
+}
+
+.footer-logo {
+    margin-bottom: 45px;
+}
+
+.footer-social {
+    margin-bottom: 85px;
+}
+
+.footer-social h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.footer-social h3:after {
+  border-bottom: 1px solid #fff;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 50%;
+  margin-left: -115px;
+  position: absolute;
+  width: 230px;
+}
+
+.footer-social ul li a {
+  color: #fff;
+  display: block;
+  margin: 0 8px;
+}
+
+.footer-social ul li a:hover {
+  color: #00C7FC;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.copyright a {
+    color: #00C7FC;
+}
+
+.copyright a:hover {
+    color: #fff;
+}
+
+.copyright p {
+
+}
+
+.copyright p:first-child {
+    margin-bottom: 15px;
+}
