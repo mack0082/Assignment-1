@@ -5,7 +5,7 @@
  */
 
 var app = require('./server/app');
-var debug = require('debug')('COMP2068-Lab4:server');
+var debug = require('debug')('Assignment-1:server');
 var http = require('http');
 
 /**

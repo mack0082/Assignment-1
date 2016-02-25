@@ -3,14 +3,14 @@
 body{
     background-image: url("http://www.mehtaartgallery.org/wp-content/uploads/2014/03/Creative-Photography-112.jpg");
     background-size: auto;
-    background-repeat: no-repeat;
+    background-repeat: space;
     
 }
 #p1{
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-size: 20px;
-        width: 500px;
+       width: 500px;
     padding: 10px;
     border: 10px solid #ff8000;
      border-width: 2px 10px 4px 20px;
@@ -18,10 +18,19 @@ body{
     margin: 10px;
     
 }
-#me{
-    float: right;
-    border-radius: 25px;
+#p2{
+    color: #ff8000;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 50px;
+    text-align: center;
+        width: 500px;
+    
+   
+    
 }
+
+
+
 
 #welcome,#H{
       color: #fff;
@@ -34,21 +43,20 @@ body{
     
     
  }
- #skills{
-     color: #fff;  
-      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    font-size: 20px;
-    
- }
+ 
+
+
+ 
 
 /* Contact Us*/
+
 
 .contact-form .input-field {
   margin-bottom: 30px;
 }
 
 .contact-form .form-control {
-  border: 1px solid #dbdbdb;
+  border: 1px solid #ff8000;
   padding: 20px;
   border-radius: 0;
   height: 58px;
@@ -70,6 +78,7 @@ body{
 
 .contact-details {
   margin-bottom: 90px;
+   color: #ff8000;
 }
 
 .contact-details > span {
@@ -77,6 +86,25 @@ body{
   display: block;
   margin-bottom: 35px;
 }
+
+/*People*/
+
+* { padding: 0; margin: 0; } 
+body { font-family: 'Roboto Condensed', sans-serif; padding: 0; margin: 0; }
+img { border: none;}
+a { color: #777; text-decoration: none;}
+a:hover { color: #555; text-decoration: none;}
+li { color: #036DA7; list-style-type: none; margin-bottom: 6px; }
+#wrap { margin: 0 auto; width: 950px; background: #fff; }
+
+#headerlinks {float: right; padding: 30px 20px 0 0;}
+#headerlinks a {color:#fff; padding: 0 10px;}
+#headerlinks a:hover {color:#fff;}
+
+#content { margin-left: 20px; margin-right: 250px; text-align: justify; color: #777; }
+#content h2 { color: #555; font-size: 1.4em; font-weight: 200;}
+#content p { margin: 10px 0 20px 0; line-height: 25px;}
+
 
 
 /* Footer */
@@ -140,7 +168,7 @@ body{
 }
 
 .copyright p {
-
+color: #00C7FC;
 }
 
 .copyright p:first-child {

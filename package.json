@@ -1,5 +1,5 @@
 {
-  "name": "assignment-1",
+  "name": "mid-term",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,10 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mack0082/Assignment-1.git"
+    "url": "https://github.com/mack0082/Mid-Term.git"
   },
   "author": "Mack Waters",
-  "description": "My Assignment 1",
+  "description": "Mid-Term",
   "license": "MIT",
   "dependencies": {
     "body-parser": "~1.13.2",

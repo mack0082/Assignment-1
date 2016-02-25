@@ -6,19 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
-/* GET product page. */
-router.get('/skills', function(req, res, next) {
-  res.render('skills', { title: 'Skills' });
-});
-
-/* GET services page. */
-router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Projects' });
-});
-
-/* GET about page. */
-router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About Me' });
+/* GET people page. */
+router.get('/people', function(req, res, next) {
+  res.render('people', { title: 'Favorite People' });
 });
 
 /* GET contact page. */
